@@ -116,27 +116,27 @@ const Container = styled.div`
   .movies-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem; /* Reduced gap between cards */
     justify-content: center; /* Center the grid */
   }
   .movie-card {
     position: relative;
-    width: 250px; /* Adjusted width for smaller cards */
+    width: 200px; /* Reduced card width */
     background-color: #222222; /* Background color for card */
     border-radius: 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem; /* Reduced padding */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
     &:hover {
       transform: scale(1.05);
     }
     img {
-      width: 100%;
-      height: 350px; /* Adjusted height to maintain uniformity */
+      width: 115%;
+      height: 300px; /* Adjusted height to maintain uniformity */
       object-fit: cover;
       border-radius: 8px;
     }
@@ -147,12 +147,12 @@ const Container = styled.div`
       color: #dddddd; /* Lighter text color */
       font-family: "Arial", sans-serif; /* Font styling */
       h3 {
-        font-size: 1.2rem; /* Adjusted font size for better fit */
+        font-size: 1rem; /* Adjusted font size for better fit */
         margin: 0.5rem 0;
         color: #ffffff; /* White color for title text */
       }
       p {
-        font-size: 0.9rem;
+        font-size: 0.8rem; /* Adjusted font size */
         margin: 0.2rem 0;
         color: #bbbbbb; /* Lighter gray color for additional info */
         font-family: "Arial", sans-serif; /* Font styling */
@@ -160,5 +160,6 @@ const Container = styled.div`
     }
   }
 `;
+
 
 export default MovieDetails;
