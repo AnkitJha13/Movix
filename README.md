@@ -9,6 +9,8 @@ You can access the Movie Mania site by following this link : [Movix](https://mov
 
 ## ScreenShot
 
+![1](https://github.com/AnkitJha13/Movix/assets/116744896/843deea0-44eb-4805-907a-1b98fd782037)
+
 
 
 
