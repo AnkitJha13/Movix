@@ -52,7 +52,7 @@ const Card = ({ index, movieData, isLiked = false, isFromMovieDetails = false })
 
   const addToList = async () => {
     try {
-      await axios.post("http://localhost:5000/api/user/add", {
+      await axios.post("https://movix-ulwf.onrender.com/api/user/add", {
         email,
         data: movieData,
       });
