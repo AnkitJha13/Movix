@@ -12,6 +12,7 @@ import { fetchMovies, getGenres } from "../store";
 import { FaPlay } from "react-icons/fa";
 import { AiOutlineInfoCircle } from "react-icons/ai";
 import Slider from "../components/Slider";
+
 function Netflix() {
   const [isScrolled, setIsScrolled] = useState(false);
   const movies = useSelector((state) => state.netflix.movies);
@@ -79,9 +80,9 @@ const Container = styled.div`
     position: relative;
     .background-image {
       filter: brightness(60%);
+      height: 90vh; /* Reduced height */
     }
     img {
-      height: 100vh;
       width: 100vw;
     }
     .container {
@@ -89,8 +90,8 @@ const Container = styled.div`
       bottom: 5rem;
       .logo {
         img {
-          width: 100%;
-          height: 100%;
+          width: 70%;
+          height: 70%;
           margin-left: 5rem;
         }
       }
