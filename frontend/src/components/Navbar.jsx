@@ -29,9 +29,9 @@ export default function Navbar({ isScrolled }) {
     <Container>
       <nav className={`${isScrolled ? "scrolled" : ""} flex`}>
         <div className="left flex a-center">
-          <Link to="/"> {/* Wrap the logo in Link component */}
+          <Link to="/">
             <div className="brand flex a-center j-center">
-              <img src={logo} alt="Logo" />
+              <img src={logo} alt="Logo" className="logo" />
             </div>
           </Link>
           <ul className="links flex">
@@ -101,8 +101,8 @@ const Container = styled.div`
     .left {
       gap: 2rem;
       .brand {
-        img {
-          height: 4rem;
+        .logo {
+          height: 3rem; /* Adjusted height for the logo */
         }
       }
       .links {
