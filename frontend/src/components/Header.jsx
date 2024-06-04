@@ -17,10 +17,10 @@ export default function Header(props) {
   );
 }
 const StyledHeader = styled.header`
-  padding: 0 4rem;
+  padding: 0 3rem;
   .logo {
     img {
-      height: 5rem;
+      height: 3rem;
     }
   }
   button {
