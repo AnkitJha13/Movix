@@ -123,7 +123,7 @@ const Container = styled.div`
   .movie-card {
     position: relative;
     width: 225px;
-    height: 470px;
+    height: 455px;
     background-color: #222222;
     margin-bottom: 2rem;
     border-radius: 10px;
