@@ -14,7 +14,7 @@ You can access the Movie Mania site by following this link : [Movix](https://mov
 ![3](https://github.com/AnkitJha13/Movix/assets/116744896/52c19c1c-891d-47c7-b7d8-149da8582b97)
 ![4](https://github.com/AnkitJha13/Movix/assets/116744896/f6681947-14fe-41c5-982d-15fade0da4f9)
 ![5](https://github.com/AnkitJha13/Movix/assets/116744896/19121796-2557-4297-a060-b4a8871ce3fe)
-![6](https://github.com/AnkitJha13/Movix/assets/116744896/a4894c14-9f54-471d-93ab-be8c5aca0f78)
+![9](https://github.com/AnkitJha13/Movix/assets/116744896/d2aa6f95-0517-4834-b4c6-810f1f2f6bb4)
 
 
 
