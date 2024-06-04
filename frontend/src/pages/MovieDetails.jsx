@@ -112,7 +112,7 @@ const MovieDetails = () => {
 };
 
 const Container = styled.div`
-  padding: 6rem 2rem 2rem 2rem;
+  padding: 8rem 2rem 6rem 2rem;
   background: url(${backgroundImage}) no-repeat center center/cover;
   .movies-grid {
     display: flex;
