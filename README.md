@@ -27,7 +27,7 @@ You can access the Movie Mania site by following this link : [Movix](https://mov
 
 
 ## Features
-- Search Movies: Users can search for movies related to the "Harry Potter" franchise.
+- Search Movies: Users can search for movies related to the searched queries.
 - Movie Details: Get detailed information about each movie, including title, release year, genre, language and imdb rating.
 - Responsive Design: The application is designed to work seamlessly across different screen sizes and devices.
 
